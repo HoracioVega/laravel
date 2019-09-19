@@ -13,6 +13,10 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
+
+        Commands\sendingPostRequest::class,
+        Commands\sendingRequest::class
+
         //
     ];
 
